@@ -4,9 +4,6 @@ deployment:
     - export DEPLOYPATH=/home/chamika2/public_html/
     - /bin/cp -R data $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
-    - /bin/cp -R mipnerf $DEPLOYPATH
-    - /bin/cp -R mipnerf360 $DEPLOYPATH
-    - /bin/cp -R zipnerf $DEPLOYPATH
     - /bin/cp README.md $DEPLOYPATH    
     - /bin/cp stylesheet.css $DEPLOYPATH    
     - /bin/cp index.html $DEPLOYPATH
