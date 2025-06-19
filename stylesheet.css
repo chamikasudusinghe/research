@@ -225,6 +225,12 @@ tr {
   font-size: 10px;
 }
 
+details.abstract-content > summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 @media (max-width: 600px) {
   .links a.btn {
     display: block;
