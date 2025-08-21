@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /images/
+Allow: /data/
+Allow: /stylesheet.css
+
+# Sitemap location
+Sitemap: https://chamika.net/research/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1
